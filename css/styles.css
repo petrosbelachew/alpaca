@@ -70,8 +70,8 @@ body {
   font-size: 1.25rem;
 }
 .buttonclicked {
-  background-color: blue;
-  color: #fff;
+  background-color: rgba(0, 0, 255, 0.4);
+  color: #fff !important;
 }
 
 @media (min-width: 768px) {
