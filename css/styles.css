@@ -49,3 +49,22 @@ body {
   /* added margin for alpaca styles section */
   margin: 0 10px;
 }
+.body-parts {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.body-parts button {
+  min-width: 70px;
+  padding: 10px 10px;
+  border: 2px solid blue;
+  border-radius: 10rem;
+  color: blue;
+  cursor: pointer;
+}
+.body-parts button-clicked {
+  background-color: blue;
+  color: #fff;
+}
