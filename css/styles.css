@@ -6,6 +6,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
   transition: 0.3s;
 }
 :root {
@@ -23,4 +25,27 @@ body {
   justify-content: space-between;
   align-self: center;
   flex-wrap: wrap;
+}
+
+.main-alpaca {
+  margin: 0 auto 10px;
+}
+.alpaca img {
+  min-width: 50vw;
+}
+
+.alpaca .z-alpaca {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.alpaca .z-alpaca .alpaca-acesseries {
+  /* added margin for alpaca acessry section */
+  margin: 10px 10px;
+}
+
+.alpaca .z-alpaca .alpaca-styles {
+  /* added margin for alpaca styles section */
+  margin: 0 10px;
 }
