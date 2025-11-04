@@ -20,6 +20,10 @@ body {
   padding: 0 30px;
 }
 
+.container h2 {
+  text-align: center;
+}
+
 .alpaca {
   display: flex;
   justify-content: space-between;
@@ -63,8 +67,37 @@ body {
   border-radius: 10rem;
   color: blue;
   cursor: pointer;
+  font-size: 1.25rem;
 }
-.body-parts button-clicked {
+.buttonclicked {
   background-color: blue;
   color: #fff;
+}
+
+@media (min-width: 768px) {
+  /* for tablets */
+  .main-alpaca {
+    margin: 0 10px;
+  }
+  .alpaca img {
+  }
+
+  .alpaca {
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-self: center; */
+    flex-wrap: wrap;
+  }
+
+  .alpaca-item {
+    flex: 1;
+  }
+
+  .alpaca .z-alpaca .alpaca-acesseries {
+    /* added margin for alpaca acessry section */
+    margin-bottom: 0;
+  }
+  .alpaca img {
+    min-width: 0;
+  }
 }
