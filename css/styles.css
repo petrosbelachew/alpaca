@@ -60,7 +60,7 @@ body {
   gap: 10px;
 }
 
-.body-parts button {
+button {
   min-width: 70px;
   padding: 10px 10px;
   border: 2px solid blue;
@@ -72,6 +72,13 @@ body {
 .buttonclicked {
   background-color: rgba(0, 0, 255, 0.4);
   color: #fff !important;
+}
+
+.hair-styles-hidden {
+  display: none;
+}
+.hair-styles-visible {
+  display: block;
 }
 
 @media (min-width: 768px) {
