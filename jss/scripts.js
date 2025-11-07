@@ -1,4 +1,4 @@
-// --- New Data Structure to Map Buttons to their Style Containers ---
+// ---Data Structure to Map Buttons to their Style Containers ---
 const STYLE_MAP = {
   hair: {
     selector: ".hair-styles-hidden, .hair-styles-visible", // Select both possible states
@@ -30,7 +30,7 @@ function toggleOtherButtons(clickedButton, isNowActive) {
   });
 }
 
-// 🎯 The Fix: The revised universal category handler
+// 🎯 The revised universal category handler
 function handleCategoryClick(clickedButton) {
   const categoryId = clickedButton.id;
 
@@ -82,14 +82,14 @@ function handleCategoryClick(clickedButton) {
   toggleOtherButtons(clickedButton, isNowActive);
 }
 
-// --- Event Listeners (Simplified due to the universal function) ---
+// --- Event Listeners---
 
 document.addEventListener("DOMContentLoaded", () => {
   const hairButton = document.getElementById("hair");
   const earButton = document.getElementById("ear");
 
   if (hairButton) {
-    // Pass the function reference, which will execute on click
+    // the function reference, which will execute on click
     hairButton.addEventListener("click", function () {
       handleCategoryClick(hairButton);
     });
