@@ -98,6 +98,22 @@ button {
   gap: 10px;
 }
 
+.background-styles-hidden {
+  display: none;
+}
+.background-styles-visible {
+  display: flex;
+  gap: 10px;
+}
+
+.blue50-style-hidden {
+  display: none;
+}
+.blue50-style-visible {
+  display: flex;
+  gap: 10px;
+}
+
 @media (min-width: 768px) {
   /* for tablets */
   .main-alpaca {
